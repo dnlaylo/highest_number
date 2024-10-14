@@ -9,6 +9,7 @@ def find_highest(entries):
             highest = num
     # Return the highest number
     return highest
+print("HIGHEST NUMBER IDENTIFIER\n")
 # Prompt the user to put their number entries
 num1 = float(input("Enter number 1: "))
 num2 = float(input("Enter number 2: "))
@@ -20,4 +21,4 @@ entries = [num1, num2,num3, num4, num5]
 # Call the method that finds the highest number
 highest_num = find_highest(entries)
 # Print the highest number
-print(highest_num)
+print(f"\nThe highest number is: {highest_num}")
