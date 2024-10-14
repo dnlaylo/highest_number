@@ -1,5 +1,7 @@
 # Method for finding the highest number
+def find_highest(entries):
     # Assume that the first entry is the highest
+    highest = entries[0]
     # A loop that compares each entry to "highest" using an if statement
             # Reassign the current highest number
     # Return the highest number
