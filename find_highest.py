@@ -16,5 +16,8 @@ num3 = float(input("Enter number 3: "))
 num4 = float(input("Enter number 4: "))
 num5 = float(input("Enter number 5: "))
 # A list to store all entries
+entries = [num1, num2,num3, num4, num5]
 # Call the method that finds the highest number
+highest_num = find_highest(entries)
 # Print the highest number
+print(highest_num)
